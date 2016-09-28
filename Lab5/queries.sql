@@ -3,6 +3,7 @@ SELECT Name, Qty * Price From store
 SELECT SUM(Qty * Price) FROM store
 SELECT COUNT(Id) FROM store
 SELECT Name FROM Course
+SELECT SUM(count) FROM Enrollment
 
 
 
