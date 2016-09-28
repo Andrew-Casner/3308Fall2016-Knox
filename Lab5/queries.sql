@@ -5,6 +5,6 @@ SELECT COUNT(Id) FROM store
 SELECT Name FROM Course
 SELECT SUM(count) FROM Enrollment
 SELECT  COUNT(Id) FROM Course
-
+SELECT COUNT(Id) FROM Dept
 
 
