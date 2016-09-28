@@ -6,5 +6,6 @@ SELECT Name FROM Course
 SELECT SUM(count) FROM Enrollment
 SELECT  COUNT(Id) FROM Course
 SELECT COUNT(Id) FROM Dept
-
+SELECT deptId, Name FROM Course, Dept WHERE Course.deptId = Dept.Name
+ 
 
