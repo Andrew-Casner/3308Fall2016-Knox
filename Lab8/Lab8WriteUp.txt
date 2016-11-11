@@ -1,0 +1,37 @@
+8.Lab 8 Writeup
+
+Part 1
+1. Done
+2. Segmentation Fault
+4. 89
+5. Done
+6. No memory allocaation for pt Malloc pt
+7. Done
+8. Done
+9. b zeroDist
+10. Done
+11. x=461259546 y=706052517
+12. del and r
+13. Done
+
+Part 2
+1. Done
+2. Yes 31,999,984 bytes
+3. 89 and 92
+4. free(pt); pt = NULL; free(zero_pt); zero_pt = NULL;
+5. Done
+6. Done
+
+Part 3
+1. 3150000 0.95 seconds
+2. Done
+3. Done
+4. 1) main() - 99.99%
+   2) zeroDist() - 63.84%
+   3) <cycle 1> - 41.15%
+   4) malloc <cycle 1> - 41.14%
+   5) int__malloc - 28.48%
+5. Done
+6. Changed the behavior of dist with the zero pointer.
+7. Done
+8. .21 sec compared to .95 sec

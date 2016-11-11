@@ -9,3 +9,5 @@ SELECT COUNT(Id) FROM Dept
 SELECT deptId, Course.Name FROM Course, Dept WHERE Course.deptId = Dept.Name
 SELECT deptId, Course.Name FROM Course, Dept WHERE Course.deptID = Dept.Name AND Dept.Name = 'CSC'  
 SELECT deptId, Course.Name, Enrollment FROM Course.deptId = Dept.Name 
+SELECT name FROM states WHERE admitted_to_union = (SELECT max(admitted_to_union) FROM states)
+SELECT senators.name FROM senators WHERE senators.affiliation = 'D' AND senators.name NOT IN (SELECT name from committees)

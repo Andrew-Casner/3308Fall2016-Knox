@@ -1,0 +1,30 @@
+Code Review Lab
+
+Snippet1.py
+-Variable names are ambigous and not very clear, leading to hard to read code.
+-Very redundant code that words, but makes it more complicated to use.
+-There is no print statement to accually display the data.
+
+Snippet2.py
+-Code seems unfinished
+-To many confusing comments
+-Fix the errors you brought up in your comments
+
+Snippet3.py
+-Comments are vague and unhelpful
+-Missing comments on important parts of code
+-Whitespace needs to be standardized
+-Combine the print statements at the bottom
+
+Peer Reviews
+
+Conor Parrish
+	Not very many comments describing stuff
+	Rude return statements in test() function
+
+Bryan Brent
+	Add some global clarifying commetns 
+	Need some overall structure and depth to this file
+Ryan Cooper
+	Add comments that summarize the overall flow of what is happening
+	Whitespace is inconsistant
